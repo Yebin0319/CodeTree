@@ -8,10 +8,11 @@ public class Main {
         int b = sc.nextInt();
         
 
-        while (a != b) {
+        while (a <= b) {
             System.out.print(a+ " ");
             a+=2;
         }
+        
 
     }
 }
